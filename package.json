@@ -1,0 +1,40 @@
+{
+  "name": "@depasquale/eslint-config",
+  "version": "0.0.4",
+  "description": "ESLint configuration for Anthony DePasquale's open-source projects",
+  "author": "Anthony DePasquale (anthony@depasquale.org)",
+  "main": "index.js",
+  "files": [
+    "README.md",
+    "LICENSE.md",
+    "package.json",
+    "index.js",
+    "typescript"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DePasqualeOrg/eslint-config"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-airbnb-typescript": "^16.1.0"
+  },
+  "peerDependencies": {
+    "@typescript-eslint/eslint-plugin": ">=5.12.1",
+    "@typescript-eslint/parser": ">=5.12.1",
+    "eslint": ">=8.10.0",
+    "eslint-plugin-import": ">=2.25.4",
+    "eslint-plugin-html": ">=6.2.0"
+  },
+  "devDependencies": {
+    "@depasquale/eslint-config": "^0.0.4"
+  }
+}
