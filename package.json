@@ -1,6 +1,6 @@
 {
   "name": "@depasquale/eslint-config",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "ESLint configuration for Anthony DePasquale's open-source projects",
   "author": "Anthony DePasquale (anthony@depasquale.org)",
   "main": "index.js",
@@ -25,7 +25,7 @@
   "license": "MIT",
   "dependencies": {
     "eslint-config-airbnb-base": "^15.0.0",
-    "eslint-config-airbnb-typescript": "^16.1.0"
+    "eslint-config-airbnb-typescript": "^17.0.0"
   },
   "peerDependencies": {
     "@typescript-eslint/eslint-plugin": ">=5.12.1",
@@ -33,6 +33,17 @@
     "eslint": ">=8.10.0",
     "eslint-plugin-import": ">=2.25.4",
     "eslint-plugin-html": ">=6.2.0"
+  },
+  "peerDependenciesMeta": {
+    "@typescript-eslint/eslint-plugin": {
+      "optional": true
+    },
+    "@typescript-eslint/parser": {
+      "optional": true
+    },
+    "eslint-plugin-html": {
+      "optional": true
+    }
   },
   "devDependencies": {
     "@depasquale/eslint-config": "^0.0.4"
