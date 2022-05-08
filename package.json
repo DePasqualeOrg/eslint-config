@@ -1,6 +1,6 @@
 {
   "name": "@depasquale/eslint-config",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "ESLint configuration for JavaScript projects",
   "author": "Anthony DePasquale (anthony@depasquale.org)",
   "main": "index.js",
@@ -22,13 +22,10 @@
     "eslintconfig"
   ],
   "license": "MIT",
-  "dependencies": {
-    "eslint-config-airbnb-base": "^15.0.0"
-  },
   "peerDependencies": {
     "eslint": ">=8.10.0",
-    "eslint-plugin-import": ">=2.25.4",
-    "eslint-plugin-html": ">=6.2.0"
+    "eslint-plugin-html": ">=6.2.0",
+    "eslint-plugin-import": ">=2.25.4"
   },
   "peerDependenciesMeta": {
     "eslint-plugin-html": {
@@ -36,6 +33,11 @@
     }
   },
   "devDependencies": {
-    "@depasquale/eslint-config": "^0.0.5"
+    "@depasquale/eslint-config": "^0.0.6",
+    "eslint": "^8.15.0",
+    "eslint-plugin-import": "^2.26.0"
+  },
+  "dependencies": {
+    "eslint-config-airbnb-base": "^15.0.0"
   }
 }
