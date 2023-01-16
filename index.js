@@ -39,5 +39,6 @@ module.exports = {
     'radix': ['error', 'as-needed'],
     'object-curly-newline': ['off'],
     'quote-props': ['off'],
+    'no-throw-literal': 'off',
   },
 };
