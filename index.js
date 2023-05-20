@@ -40,5 +40,6 @@ module.exports = {
     'object-curly-newline': ['off'],
     'quote-props': ['off'],
     'no-throw-literal': 'off',
+    'no-underscore-dangle': 'off',
   },
 };
