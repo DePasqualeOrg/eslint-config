@@ -41,5 +41,7 @@ module.exports = {
     'quote-props': ['off'],
     'no-throw-literal': 'off',
     'no-underscore-dangle': ['off'],
+    'no-restricted-syntax': ['off'],
+    'no-await-in-loop': ['off'],
   },
 };
