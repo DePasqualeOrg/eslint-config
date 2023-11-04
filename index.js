@@ -43,5 +43,7 @@ module.exports = {
     'no-underscore-dangle': ['off'],
     'no-restricted-syntax': ['off'],
     'no-await-in-loop': ['off'],
+    'no-unused-vars': ['error', { 'argsIgnorePattern': '^_' }],
+    'no-continue': ['off'],
   },
 };
