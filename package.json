@@ -1,6 +1,6 @@
 {
   "name": "@depasquale/eslint-config",
-  "version": "0.0.13",
+  "version": "0.0.14",
   "description": "ESLint configuration for JavaScript projects",
   "author": "Anthony DePasquale (anthony@depasquale.org)",
   "main": "index.js",
@@ -34,7 +34,7 @@
   },
   "devDependencies": {
     "@depasquale/eslint-config": "^0.0.13",
-    "eslint": "^8.53.0",
+    "eslint": "^8.54.0",
     "eslint-plugin-import": "^2.29.0"
   },
   "dependencies": {

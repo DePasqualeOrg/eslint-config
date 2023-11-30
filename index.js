@@ -1,7 +1,7 @@
 module.exports = {
   env: {
     browser: true,
-    es2022: true,
+    es2024: true,
     node: true,
   },
   globals: {
@@ -43,7 +43,7 @@ module.exports = {
     'no-underscore-dangle': ['off'],
     'no-restricted-syntax': ['off'],
     'no-await-in-loop': ['off'],
-    'no-unused-vars': ['error', { 'argsIgnorePattern': '^_' }],
+    'no-unused-vars': ['error', { 'varsIgnorePattern': '^_', 'argsIgnorePattern': '^_', 'caughtErrorsIgnorePattern': '^_', 'destructuredArrayIgnorePattern': '^_', }],
     'no-continue': ['off'],
   },
 };
